@@ -9,4 +9,19 @@
 body {
     font-family: Mukta, sans-serif;
     font-weight: 400;
+    color: #858E83;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #222522;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
 }
