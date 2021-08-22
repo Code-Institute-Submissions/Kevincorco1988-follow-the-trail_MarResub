@@ -64,7 +64,12 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    
     position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
 }
 
 #hero-image {
@@ -74,10 +79,6 @@ h1, h2 {
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-}
-
-#cover-text, #cover-text h2 {
-    color: #fff;
 }
 
 /* create zoom level for hero image */
@@ -91,7 +92,7 @@ h1, h2 {
 }
 
 #cover-text {
-    font-size: 120%;
+    font-size: 130%;
     font-family: roboto-slab, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -102,7 +103,7 @@ h1, h2 {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(rgba(255, 0, 0, 0.7));
+    background-color: rgba(241, 107, 212, 0.7);
 
     bottom: 30px;
     left: 150px;
