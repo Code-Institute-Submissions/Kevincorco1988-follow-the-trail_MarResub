@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Roboto&display=swap');
+@import url(@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -7,18 +7,18 @@
 }
 
 body {
-    font-family: Mukta, sans-serif;
-    font-weight: 400;
+    font-family: Lato, sans-serif;
+    font-weight: 500;
     color: #858E83;
 }
 
 /* headings and logo */
 
 h1, h2 {
-    font-family: Roboto, sans-serif;
+    font-family: roboto-slab, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #222522;
+    color: rgb(18, 172, 64);
 }
 
 #logo {
@@ -45,15 +45,46 @@ h1, h2 {
 
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: #6F7C77;
 }
 
 #menu a:hover {
-    color: #858E83;
+    color: #6F7C77;
     border: 2px solid ;
 }
 
 .active {
     border: 2px solid;
-    color: 858E83;
+    color: #858E83;
+}
+
+/* hero-image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.jpg')no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+    
+    
+
+/* create zoom level for hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
