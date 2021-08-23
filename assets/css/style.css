@@ -144,7 +144,6 @@ h3 {
 #center-about {
     width: 33%;
     margin: 0 auto;
-    background-color: #1571bd99;
 }
 
 hr {
@@ -153,26 +152,49 @@ hr {
     margin: 5px 0;
 }
 
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading {
+#left-about-heading {
     width: 60%;
     float: left;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    margin-right: 30px;
 }
 
 .right-about-heading h2 {
     text-align: right;
-}
+} 
 
 .right-about-heading p {
     text-align: right;
+} 
+
+.why-love {
+    text-align: center;
+    font-size: 2rem;
+    margin: 30px 0;
+}
+
+#square-container {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: #6f7c77;
+    border-width: 1px;
+    margin: 0 auto;
+}
+
+#square-cover-bg {
+    background:url('../images/about-us-center-image.jpg')no-repeat center center;;
+    height: 100%;
+    background-size: contain;
 }
