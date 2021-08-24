@@ -194,7 +194,17 @@ hr {
 }
 
 #square-cover-bg {
-    background:url('../images/about-us-center-image.jpg')no-repeat center center;;
+    background:url('../images/about-us-center-image.jpg')no-repeat center center;
     height: 100%;
     background-size: contain;
+}
+
+/* event times and destinations */
+
+#times {
+    background-image: url('../images/meet-up-and-destinations-background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
 }
