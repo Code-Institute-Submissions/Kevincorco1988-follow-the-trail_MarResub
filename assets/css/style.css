@@ -216,7 +216,6 @@ hr {
     color: white;
     background-color: rgb(0, 0, 0, .6);
     width: 25%;
-    height: 300px;
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
@@ -245,9 +244,9 @@ footer {
 }
 
 .social-networks i {
-    font-size: 300%;
-    margin: 5%;
-    padding: 5%;
+    font-size: 200%;
+    margin: 2%;
+    padding: 2%;
     color: #6F7C77;
 }
 
@@ -308,6 +307,11 @@ footer {
         padding: 0;
     }
     
+    #times > div {
+        width: 100%;
+        clear: both;
+        padding: 0;
+    }
 
     hr {
         display: none;
@@ -348,4 +352,5 @@ footer {
     #left-about-heading p, .right-about-heading p {
         text-align: center;
         padding: 0 20px;
+    }    
 }
