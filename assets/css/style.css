@@ -153,21 +153,17 @@ hr {
 }
 
 #left-about-heading {
-    width: 60%;
     float: left;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-    margin-left: 30px;
 }
 
 .right-about-heading {
-    width: 60%;
     float: right;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-    margin-right: 30px;
 }
 
 .right-about-heading h2 {
@@ -322,11 +318,34 @@ footer {
 
 @media screen and (max-width: 950px) {
     
-    /* #menu {
+    #menu {
         clear:left;       
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
-    } */
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #about-us {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    #left-about-heading h2, .right-about-heading h2 {
+    width: 100%;
+    text-align: center;
+    }
+
+    #left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
 }
