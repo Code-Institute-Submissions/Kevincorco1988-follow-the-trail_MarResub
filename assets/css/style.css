@@ -80,8 +80,12 @@ h3 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text {
     color: #fff;
+}
+
+#cover-text h2 {
+    color: rgb(212, 193, 22);  
 }
 
 #hero-image {
@@ -194,7 +198,6 @@ hr {
     height: 100%;
     background-size: contain;
 }
-
 /* event times and destinations */
 
 #times {
@@ -250,7 +253,7 @@ footer {
     color: #6F7C77;
 }
 
-/* trails */
+/* trails page */
 
 #photos {
     clear: both;
@@ -260,11 +263,8 @@ footer {
 }
 
 #photos > img {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 70px;
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    position: relative;
 }
 
 #photos > h2 {
@@ -279,9 +279,67 @@ footer {
     font-size: 2rem;
 }
 
+/* Join us page */
+
+#join-us-image > img {
+    width: 100%;
+    position: relative;
+}
+
+#join-us-message {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#form {
+    text-align: center;
+    height: 600px;
+    width: 50%;
+    background-color: green;
+    margin: 0 auto;
+}
+
+label {
+    width: 50px;
+    white-space: nowrap;
+    text-align: center;
+    color: black;
+}
+input {
+    display: block;
+    overflow: hidden;
+    width: 50%;
+    margin: 0 auto;
+    color: black;
+}
+
+legend {
+    color: black;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+#your-contact-details {
+    margin: 30px;
+}
+
+#submit-form {
+    margin-bottom: 30px;
+}
+
+#submit #reset {
+    border: 5px solid #6F7C77;;
+}
+
+#send-form {
+    margin: 30px;
+}
+
 /* media queries */
 
-/* For larger to medium screens size from 1100px wide and down */
+/* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #about-us {
         width: 65%;
@@ -352,5 +410,25 @@ footer {
     #left-about-heading p, .right-about-heading p {
         text-align: center;
         padding: 0 20px;
-    }    
+    }
+    
+    
+    #photos {
+        column-count: 3;
+        clear: both;
+        line-height: 0;
+        column-gap: 0;
+    }
+}
+
+/* For small screen sizes 800px and down */
+
+@media screen and (max-width: 800px) {
+    
+    #photos {
+    column-count: 2;
+    clear: both;
+    line-height: 0;
+    column-gap: 0;
+    }
 }
