@@ -339,6 +339,18 @@ legend {
 
 /* media queries */
 
+/* For larger screens size from 1200px wide and up */
+@media screen and (min-width: 1200px) {
+    #left-about {
+        margin-left: 50px;
+    }
+
+    #right-about {
+        margin-right: 50px;
+    }
+}
+
+
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #about-us {
@@ -430,5 +442,9 @@ legend {
     clear: both;
     line-height: 0;
     column-gap: 0;
+    }
+
+    .social-networks i {
+        font-size: 150%;
     }
 }
