@@ -8,7 +8,7 @@ I looked into the code institute a few years back but couldn't afford it at that
 
 This is my first prject on the course and I took some inspiration for the website from the love running webiste in the module. I wanted to make a websiste for a group for people in the Cork, Ireland area who are trail and hill walking lovers. I'm a nature lover myself and I found exploring relaxing and enjoyable. The group of course is fictional but if I was to create a group like this I would want it to have some of the features on the website that I have created.
 
-View the deployed website here: [Follow The Trail] (https://8000-kumquat-bedbug-j2n74art.ws-eu16.gitpod.io/)
+View the deployed website here: [Follow The Trail] (https://kevincorco1988.github.io/explore-the-trails/)
 
 ---
 
