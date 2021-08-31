@@ -1,104 +1,88 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Kevincorco1988,
+# FOLLOW THE TRAIL - My first milestone project of the 5 projects for the Software Development diploma with the Code Institute.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+### Introduction: Kevin Corcoran
 
-## Gitpod Reminders
+I looked into the code institute a few years back but couldn't afford it at that time. When I saw an advert online for it a few months ago, I thought it was fate and decided to give the 5 day coding challenge a try. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This is my first prject on the course and I took some inspiration for the website from the love running webiste in the module. I wanted to make a websiste for a group for people in the Cork, Ireland area who are trail and hill walking lovers. I'm a nature lover myself and I found exploring relaxing and enjoyable. The group of course is fictional but if I was to create a group like this I would want it to have some of the features on the website that I have created.
 
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+View the deployed website here: [Follow The Trail] (https://8000-kumquat-bedbug-j2n74art.ws-eu16.gitpod.io/)
 
 ---
 
-Happy coding!
+# Table of Contents: User Experience Design
+     - The Strategy Plane
+     - The Scope Plane
+     - The Structure Plane
+     - The Skeleton Plane
+     - The Surface Plane
+
+## The Strategy Plane
+
+### Website Objectives
+
+**Who's our target demographic:**   
+
+The idea was to create a fictional trail and hill walking group for people in Cork. The target was anyone who loves nature looking to escape the normal weekly routine with something different and enjoyable. The hope was to make it a freindly and approachable environment. 
+
+**What's our value:**
+
+The group focused just as much on the mental/physical health benefits of being in the outdoors than just being in outdoors as an activity. I set up the website so that new/existing users can see what destinations are coming up for our trips. Social media accounts were added in case there are specific questions that a potential member may have. The destinations/meet-up point section show the destinations, times and meet-up points to make it easier for the site visitor to know enough about the process to join the group right away.
+
+## The Scope Plane
+
+### Requirements and Functional Specifications
+
+**Owner Goals**
+   - Make the webiste easy to navigate and use across all devices and screen sizes
+   - To have the majority of the information on the landing page so that the user doesn't miss anything
+   - Use images, icons and health benefits to create a beautiful, healthy and social experience
+   - Have social media links on the footer of each page for easy access to contact us
+   - Have a responsive sign up form with the ability to reset and submit
+
+**First-time/Repeat User Goals**
+   - To find out the information (destinations times etc) needed easily and quickly
+   - Have the ability to join us now through the form or contact us via social media for further information
+   - To see what the experience looks like through images
+
+## The Structure Plane
+
+### **Interaction Design**
+   - **Consistent:** I tried to be consistent with the colors used, the layout of headings (navigation bar appears horizontally) and footers
+   - **Predictable:** The layout consistency makes it predcictable how the next page should look
+   - **Learnable:** Its predictability and simple navigation makes it easy to learn
+   - **Visible:** Everything is clearly visible due to the mixture of colors and layout
+   - **Feedback:** The form has a congratulations message to show that the information has been submitted. The reset button clears the information back to the placeholder text showing the user that the information has been reset.
+
+### **Information Archictecture**
+The layout of the website was structured to proviude a user-friendly experience by allowing the user to move through the website freely and not get lost along the way. The header with has the navigation bar and the footer has the social media links to ensure this also.
+
+## The Skeleton Plane
+I wanted the webiste to be structured in the most user-friendly way by add the right content in the right places. My hope would be that each page would be enough to have the user move to the next one.
+
+The navigation was to be placed at the top of the page and the contact us area on the footer of each page so that the user would find information on either end as they finish scrolling. Tha landing page had some nice visuals such as icons and images to give a clear understanding of what the site was and what it stood for.
+
+**Wireframes link included here:** ![Wireframes](https://kumquat-bedbug-j2n74art.ws-eu16.gitpod.io/)
+They are added as images in the images file
+
+## The Surface Plane
+
+The surface and finshed look of the website is consistent across key areas. The color, color-contrast, layout, fonts and patterns are all examples of the consistency shown on the surface to the user providing a pleasing experience to the user. 
+
+# Issues and Troubleshooting
+
+On the "trails" page there were some issues with the how long the loading time of that page was. I tried to improve this by compressing the size of the images but this did not have effect in terms of loading speed that I wanted and so the issue remains unresolved. 
+
+Also, the images on  the trails page are not lined up perfectly towards the bottom on the devices. This is another unresolved issue.
+-----
+
+# Credits and Resources 
+  
+  -All images were taken from (https://pexels.com/)
+  -Icons were taken from (https://fontawesome.com/)
+  -Font was copied from (https://fonts.google.com/)
+  - Images were compressed at (https://compressjpeg.com/)
+
+  **Resources used:** (https://www.w3schools.com/) (https://stackoverflow.com/)
