@@ -1,107 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=>, initial-scale=1.0">
-    <meta name="description" content="Explore The Trails group for trail and nature walk lovers in Cork, Ireland">
-    <meta name="keywords" content="explore the trails, trail and nature walk group, cork, ireland">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=>, initial-scale=1.0">
+        <meta name="description" content="Explore The Trails group for trail and nature walk lovers in Cork, Ireland">
+        <meta name="keywords" content="explore the trails, trail and nature walk group, cork, ireland">
 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Follow The Trail</title>
-</head>
-<body>
-    <header>
-    <a href="index.html">
-        <h1 id="logo">Follow The Trail</h1>
-    </a>
-    <nav>
-        <ul id="menu">
-            <li>
-                <a href="join-us.html" class="active">Join Us</a>
-                
-            </li>
-            <li>
-                <a href="trails.html">Trails</a>
-            </li>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-        </ul>
-    </nav>
-    </header>
-    
-    <section>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Follow The Trail</title>
+    </head>
+    <body>
+        <header>
+        <a href="index.html">
+            <h1 id="logo">Follow The Trail</h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="join-us.html" class="active">Join Us</a>
+                    
+                </li>
+                <li>
+                    <a href="trails.html">Trails</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+        
+        <section>
+            <h2 id="join-us-heading">Join Our Group Today</h2>
+
             <div id="join-us-image">
                 <img src="assets/images/join-us-image.jpg" alt="Group photo">
             </div>
-    </section>
-    <h2 id="join-us-message">Fill Out The Details Below To Join Our Trails For September</h2>
-    <div id="form">
-    <form action="https://formdump.codeinstitute.net" method="POST">
-<fieldset class="row-one">
+        </section>
+        <h2 id="join-us-message">Fill Out The Details Below To Join Our Trails For September</h2>
+        <div id="form">
+            <form action="https://formdump.codeinstitute.net" method="POST">
+        <fieldset class="row-one">
+                    <legend>
+                        <strong>Your name and age (members must be 18 or over)
+                    </strong>
+                </legend><br><br>
+                <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Enter your last name"><br>
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" placeholder="Enter your age"><br><br>
+        </fieldset>
+        <fieldset class="row-two">
             <legend>
-                <strong>Your name and age (members must be 18 or over)
-            </strong>
-        </legend><br><br>
-        <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" placeholder="Enter your first name"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" placeholder="Enter your last name"><br>
-  <label for="age">Age:</label>
-  <input type="text" id="age" name="age" placeholder="Enter your age"><br><br>
-  </fieldset>
-<fieldset class="row-two">
-    <legend>
-      <strong>
-          Your contact details
-        </strong>
-    </legend><br><br>
-    <label for="phone">Phone:</label><br>
-    <input type="text" id="phone-number" name="phone number" placeholder="Enter your phone number"><br>
-    <label for="email">Email address:</label><br>
-    <input type="text" id="email" name="lname" placeholder="Enter your email address"><br><br>
-</fieldset> 
-<fieldset class="row-three">
-    <legend id="submit-form">
-        <strong>
-            Submit/Reset Form
-        </strong>
-    </legend>
-    <button id="submit" type="submit">
-        <strong>
-            Submit
-        </strong>
-    </button>
-    <button id="reset" type="reset">
-        <strong>
-            Reset
-        </strong>
-    </button>
-</fieldset>    
-    </form>
-    <footer>
-        <h2 class="social-heading">Contact Us</h2>
-        <ul class="social-networks">
-            <li>
-             <a href="https://facebook.com " target="blank" rel="noopener" 
-             aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-             <a href="https://www.instagram.com/" target="blank" rel="noopener" 
-                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram-square"></i></a>
-            </li>
-            <li>
-             <a href="https://twitter.com " target="blank" rel="noopener" 
-                aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-            </li>
-            <li>
-             <a href="https://youtube.com " target="blank" rel="noopener" 
-                aria-label="Visit our Youtube page (opens in a new tab)"><i class="fab fa-youtube"></i></a>
-            </li>
-        </ul>
-    </footer>
-    <!--font awesome script-->
-    <script src="https://kit.fontawesome.com/a90370d8ae.js" crossorigin="anonymous"></script>
-</body>
+            <strong>
+                Your contact details
+                </strong>
+            </legend><br><br>
+            <label id="phone">Phone:</label><br>
+            <input type="text" id="phone-number" name="phone number" placeholder="Enter your phone number"><br>
+            <label for="email">Email address:</label><br>
+            <input type="text" id="email" name="lname" placeholder="Enter your email address"><br><br>
+        </fieldset> 
+        <fieldset class="row-three">
+            <legend id="submit-form">
+                <strong>
+                    Submit/Reset Form
+                </strong>
+            </legend>
+            <button id="submit" type="submit">
+                <strong>
+                    Submit
+                </strong>
+            </button>
+            <button id="reset" type="reset">
+                <strong>
+                    Reset
+                </strong>
+            </button>
+        </fieldset>    
+            </form>
+    </div>
+        <footer>
+            <h2 class="social-heading">Contact Us</h2>
+            <ul class="social-networks">
+                <li>
+                <a href="https://facebook.com " target="blank" rel="noopener" 
+                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                <a href="https://www.instagram.com/" target="blank" rel="noopener" 
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram-square"></i></a>
+                </li>
+                <li>
+                <a href="https://twitter.com " target="blank" rel="noopener" 
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+                </li>
+                <li>
+                <a href="https://youtube.com " target="blank" rel="noopener" 
+                    aria-label="Visit our Youtube page (opens in a new tab)"><i class="fab fa-youtube"></i></a>
+                </li>
+            </ul>
+        </footer>
+        <!--font awesome script-->
+        <script src="https://kit.fontawesome.com/a90370d8ae.js" crossorigin="anonymous"></script>
+    </body>
 </html>

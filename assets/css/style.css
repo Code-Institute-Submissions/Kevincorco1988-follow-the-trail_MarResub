@@ -1,4 +1,4 @@
-@import url(@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -156,7 +156,14 @@ hr {
     margin: 5px 0;
 }
 
-#left-about-heading {
+#left-top-heading {
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 70px;
+}
+
+#left-bottom-heading {
     float: left;
     line-height: 20px;
     clear: both;
@@ -280,6 +287,12 @@ footer {
 }
 
 /* Join us page */
+
+#join-us-heading {
+    margin-top: 30px;
+    text-align: center;
+}
+
 
 #join-us-image > img {
     width: 100%;
@@ -410,16 +423,30 @@ legend {
         margin: 0 auto;
     }
 
-    #left-about-heading, .right-about-heading {
+    #left-top-heading, .right-about-heading {
         width: inherit;
     }
 
-    #left-about-heading h2, .right-about-heading h2 {
+    #left-bottom-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    #left-top-heading h2, .right-about-heading h2 {
     width: 100%;
     text-align: center;
     }
 
-    #left-about-heading p, .right-about-heading p {
+    #left-bottom-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #left-top-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    #left-bottom-heading p, .right-about-heading p {
         text-align: center;
         padding: 0 20px;
     }
