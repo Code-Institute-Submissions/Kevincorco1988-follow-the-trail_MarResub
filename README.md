@@ -73,15 +73,15 @@ The group focused just as much on the mental/physical health benefits of being i
 
 ### Images of finshed website
 
-![]assets/images/finshed-home-page-image-1.png
-![]assets/images/finshed-home-page-image-2.png
-![]assets/images/finshed-home-page-image-3.png
-![]assets/images/finshed-join-us-page-image-1.png
-![]assets/images/finshed-join-us-page-image-2.png
-![]assets/images/finshed-join-us-page-image-3.png
-![]assets/images/finshed-join-us-page-image-4.png
-![]assets/images/finshed-trails-page-image-1.png
-![]assets/images/finshed-trails-page-image-2.png
+   -![](assets/images/finshed-home-page-image-1.png)
+   -![](assets/images/finshed-home-page-image-2.png)
+   -![](assets/images/finshed-home-page-image-3.png)
+   -![](assets/images/finshed-join-us-page-image-1.png)
+   -![](assets/images/finshed-join-us-page-image-2.png)
+   -![](assets/images/finshed-join-us-page-image-3.png)
+   -![](assets/images/finshed-join-us-page-image-4.png)
+   -![](assets/images/finshed-trails-page-image-1.png)
+   -![](assets/images/finshed-trails-page-image-2.png)
 
 ### **Information Archictecture**
 The layout of the website was structured to proviude a user-friendly experience by allowing the user to move through the website freely and not get lost along the way. The header with has the navigation bar and the footer has the social media links to ensure this also.
