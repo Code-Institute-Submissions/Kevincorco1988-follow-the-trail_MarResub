@@ -288,6 +288,10 @@ footer {
 
 /* Join us page */
 
+#join-us-section {
+    padding: 50px;
+}
+
 #join-us-heading {
     margin-top: 30px;
     text-align: center;
