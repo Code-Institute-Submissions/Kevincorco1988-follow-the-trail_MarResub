@@ -58,18 +58,18 @@ The group focused just as much on the mental/physical health benefits of being i
 
 ### Images of wireframes
 
-![]assets/images/wireframe-home-1.png
-![]assets/images/wireframe-home-2.png
-![]assets/images/wireframe-home-3.png
-![]assets/images/wireframe-home-4.png
-![]assets/images/wireframe-join-us-1.png
-![]assets/images/wireframe-join-us-2.png
-![]assets/images/wireframe-join-us-3.png
-![]assets/images/wireframe-join-us-4.png
-![]assets/images/wireframe-trails-1.png
-![]assets/images/wireframe-trails-2.png
-![]assets/images/wireframe-trails-3.png
-![]assets/images/wireframe-trails-3.png
+   -![](assets/images/wireframe-home-1.png)
+   -![](assets/images/wireframe-home-2.png)
+   -![](assets/images/wireframe-home-3.png)
+   -![](assets/images/wireframe-home-4.png)
+   -![](assets/images/wireframe-join-us-1.png)
+   -![](assets/images/wireframe-join-us-2.png)
+   -![](assets/images/wireframe-join-us-3.png)
+   -![](assets/images/wireframe-join-us-4.png)
+   -![](assets/images/wireframe-trails-1.png)
+   -![](assets/images/wireframe-trails-2.png)
+   -![](assets/images/wireframe-trails-3.png)
+   -![](assets/images/wireframe-trails-3.png)
 
 ### Images of finshed website
 
