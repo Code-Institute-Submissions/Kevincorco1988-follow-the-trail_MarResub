@@ -102,6 +102,12 @@ On the "trails" page there were some issues with the how long the loading time o
 Also, the images on  the trails page are not lined up perfectly towards the bottom on the devices. This is another unresolved issue.
 -----
 
+# Testing 
+
+All pages passed through the relevant validators at (https://validator.w3.org/) and (https://jigsaw.w3.org/css-validator/) . 
+
+It was also tested via multiple browsers and checked across multiple device types. 
+
 # Credits and Resources 
   
   -All images were taken from (https://pexels.com/)
