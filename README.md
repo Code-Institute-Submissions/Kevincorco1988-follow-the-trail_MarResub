@@ -56,6 +56,33 @@ The group focused just as much on the mental/physical health benefits of being i
    - **Visible:** Everything is clearly visible due to the mixture of colors and layout
    - **Feedback:** The form has a congratulations message to show that the information has been submitted. The reset button clears the information back to the placeholder text showing the user that the information has been reset.
 
+### Images of wireframes
+
+![]assets/images/wireframe-home-1.png
+![]assets/images/wireframe-home-2.png
+![]assets/images/wireframe-home-3.png
+![]assets/images/wireframe-home-4.png
+![]assets/images/wireframe-join-us-1.png
+![]assets/images/wireframe-join-us-2.png
+![]assets/images/wireframe-join-us-3.png
+![]assets/images/wireframe-join-us-4.png
+![]assets/images/wireframe-trails-1.png
+![]assets/images/wireframe-trails-2.png
+![]assets/images/wireframe-trails-3.png
+![]assets/images/wireframe-trails-3.png
+
+### Images of finshed website
+
+![]assets/images/finshed-home-page-image-1.png
+![]assets/images/finshed-home-page-image-2.png
+![]assets/images/finshed-home-page-image-3.png
+![]assets/images/finshed-join-us-page-image-1.png
+![]assets/images/finshed-join-us-page-image-2.png
+![]assets/images/finshed-join-us-page-image-3.png
+![]assets/images/finshed-join-us-page-image-4.png
+![]assets/images/finshed-trails-page-image-1.png
+![]assets/images/finshed-trails-page-image-2.png
+
 ### **Information Archictecture**
 The layout of the website was structured to proviude a user-friendly experience by allowing the user to move through the website freely and not get lost along the way. The header with has the navigation bar and the footer has the social media links to ensure this also.
 
@@ -64,16 +91,13 @@ I wanted the webiste to be structured in the most user-friendly way by add the r
 
 The navigation was to be placed at the top of the page and the contact us area on the footer of each page so that the user would find information on either end as they finish scrolling. Tha landing page had some nice visuals such as icons and images to give a clear understanding of what the site was and what it stood for.
 
-**Wireframes link included here:** ![Wireframes](https://kumquat-bedbug-j2n74art.ws-eu16.gitpod.io/)
-They are added as images in the images file
-
 ## The Surface Plane
 
 The surface and finshed look of the website is consistent across key areas. The color, color-contrast, layout, fonts and patterns are all examples of the consistency shown on the surface to the user providing a pleasing experience to the user. 
 
 # Issues and Troubleshooting
 
-On the "trails" page there were some issues with the how long the loading time of that page was. I tried to improve this by compressing the size of the images but this did not have effect in terms of loading speed that I wanted and so the issue remains unresolved. 
+On the "trails" page there were some issues with the how long the loading time of that page was. I tried to improve this by compressing the size of the images but this did not have effect in terms of loading speed that I wanted. 
 
 Also, the images on  the trails page are not lined up perfectly towards the bottom on the devices. This is another unresolved issue.
 -----
@@ -83,6 +107,7 @@ Also, the images on  the trails page are not lined up perfectly towards the bott
   -All images were taken from (https://pexels.com/)
   -Icons were taken from (https://fontawesome.com/)
   -Font was copied from (https://fonts.google.com/)
-  - Images were compressed at (https://compressjpeg.com/)
+  -Images were compressed at (https://compressjpeg.com/)
+  Wireframes were made at (https://balsamiq.com/wireframes/)
 
   **Resources used:** (https://www.w3schools.com/) (https://stackoverflow.com/)
